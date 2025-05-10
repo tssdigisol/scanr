@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./favicon.ico" type="x-icon" />
+  <title>ScanR – Legal Docs</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #003366;
+      color: white;
+    }
+
+    header img {
+      height: 50px;
+      width: 50px;
+      object-fit: contain;
+      margin-right: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      border-bottom: 2px solid #ddd;
+      background: #f1f1f1;
+    }
+
+    nav button {
+      flex: 1;
+      padding: 1rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #003366;
+    }
+
+    nav button.active {
+      background: white;
+      border-bottom: 3px solid #003366;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.7;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    h2 {
+      color: #003366;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="scanr.svg" alt="ScanR Logo">
+    <h1>ScanR – Legal Information</h1>
+  </header>
+
+  <nav>
+    <button class="tab-button active" onclick="switchTab('privacy')">Privacy Policy</button>
+    <button class="tab-button" onclick="switchTab('terms')">Terms & Conditions</button>
+  </nav>
+
+  <section id="privacy" class="tab-content active">
+    <h2>Privacy Policy</h2>
+    <p><strong>Effective Date:</strong> May 1, 2025</p>
+    <p><strong>ScanR – QR Code Reader & Writer</strong> is developed and maintained by <strong>Total Soft Solutions</strong> ("we", "our", or "us"). This application is offered as a free, ad-supported service and is intended for use as-is.</p>
+
+        <h2>Information Collection and Use</h2>
+        <p>ScanR requires access to specific features on your device to provide its core functionality. These permissions include, but may not be limited to:</p>
+
+        <ul>
+            <li><code>android.permission.CAMERA</code> – for features such as QR code scanning.</li>
+            <li><code>android.permission.WRITE_EXTERNAL_STORAGE</code> – for saving qr/barcode images (applies to Android SDK ≤ 28).</li>
+            <li><code>android.permission.ACCESS_FINE_LOCATION</code> and <code>ACCESS_COARSE_LOCATION</code> – for location-based tools.</li>
+        </ul>
+
+        <p>We do not collect, store, or transmit any personally identifiable information. All sensitive operations are handled locally on your device and are not shared with us or our servers.</p>
+
+        <h2>Third-party Services</h2>
+        <p>To provide a better user experience, the app may integrate the following third-party services:</p>
+
+        <ul>
+            <li>Google Play Services</li>
+            <li>AdMob</li>
+            <li>Firebase Analytics</li>
+        </ul>
+
+        <p>These services may collect information used to identify you. We encourage you to review their respective privacy policies.</p>
+
+        <h2>Cookies</h2>
+        <p>We do not use cookies directly. However, third-party SDKs included in the app may utilize cookies or similar technologies to improve service delivery.</p>
+
+        <h2>Security</h2>
+        <p>We do not collect, store, or transmit any personally identifiable information directly.</p>
+
+        <h2>Children’s Privacy</h2>
+        <p>ScanR is not intended for use by children under the age of 13. We do not knowingly collect personally identifiable information from children under 13.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page. Users are encouraged to review this page periodically for any updates.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions or concerns regarding this Privacy Policy, feel free to contact us at:</p>
+        <p><a href="mailto:tssdigisol@gmail.com">tssdigisol@gmail.com</a></p>
+  </section>
+
+  <section id="terms" class="tab-content">
+    <h2>Terms and Conditions</h2>
+    <p><strong>Effective Date:</strong> May 1, 2025</p>
+    <h2>1. Acceptance of Terms</h2>
+  <p>By downloading or using the ScanR app, you agree to be bound by these Terms and Conditions. If you do not agree, you may not use this App.</p>
+
+  <h2>2. License</h2>
+  <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use ScanR strictly in accordance with these Terms.</p>
+
+  <h2>3. Use Restrictions</h2>
+  <p>You agree not to:
+    <ul>
+      <li>Use the app for any unlawful or unauthorized purpose</li>
+      <li>Attempt to reverse-engineer, modify, or tamper with the app</li>
+      <li>Use the app to transmit malicious or harmful code</li>
+    </ul>
+  </p>
+
+  <h2>4. Intellectual Property</h2>
+  <p>All content, features, and functionality in ScanR are the property of Total Soft Solutions and protected by applicable copyright, trademark, and other laws.</p>
+
+  <h2>5. Ads and Third-Party Services</h2>
+  <p>ScanR may display ads or use services from third parties. You acknowledge that such third-party providers may have their own terms and privacy policies.</p>
+
+  <h2>6. Disclaimer of Warranties</h2>
+  <p>This app is provided "as is" without warranties of any kind. We do not warrant that the app will be error-free, uninterrupted, or meet your requirements.</p>
+
+  <h2>7. Limitation of Liability</h2>
+  <p>Total Soft Solutions shall not be liable for any damages or losses arising from your use of, or inability to use, this app.</p>
+
+  <h2>8. Termination</h2>
+  <p>We reserve the right to terminate or suspend your access to the app at any time, without notice, for conduct that violates these Terms.</p>
+
+  <h2>9. Governing Law</h2>
+  <p>These Terms shall be governed and construed in accordance with the laws of Pakistan, without regard to its conflict of law provisions.</p>
+
+  <h2>10. Changes to Terms</h2>
+  <p>We may update these Terms from time to time. Any changes will be posted on this page. Continued use of the app constitutes acceptance of the revised terms.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>If you have any questions or concerns about these Terms, please contact us at:</p>
+  <p><a href="mailto:tssdigisol@gmail.com">tssdigisol@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © 2025 Total Soft Solutions – All rights reserved.
+  </footer>
+
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.currentTarget.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
